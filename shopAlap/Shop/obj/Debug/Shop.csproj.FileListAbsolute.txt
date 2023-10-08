@@ -1,0 +1,11 @@
+D:\visual repos\Shop\bin\Debug\Shop.exe.config
+D:\visual repos\Shop\bin\Debug\Shop.exe
+D:\visual repos\Shop\bin\Debug\Shop.pdb
+D:\visual repos\Shop\obj\Debug\Shop.csproj.AssemblyReference.cache
+D:\visual repos\Shop\obj\Debug\Shop.Form1.resources
+D:\visual repos\Shop\obj\Debug\Shop.Properties.Resources.resources
+D:\visual repos\Shop\obj\Debug\Shop.csproj.GenerateResource.cache
+D:\visual repos\Shop\obj\Debug\Shop.csproj.CoreCompileInputs.cache
+D:\visual repos\Shop\obj\Debug\Shop.exe
+D:\visual repos\Shop\obj\Debug\Shop.pdb
+D:\visual repos\Shop\obj\Debug\Shop.ShopItem.resources

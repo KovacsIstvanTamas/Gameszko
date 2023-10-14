@@ -1,0 +1,10 @@
+C:\Users\ordas\OneDrive\Desktop\Projekt\OverLapTest\bin\Debug\OverLapTest.exe.config
+C:\Users\ordas\OneDrive\Desktop\Projekt\OverLapTest\bin\Debug\OverLapTest.exe
+C:\Users\ordas\OneDrive\Desktop\Projekt\OverLapTest\bin\Debug\OverLapTest.pdb
+C:\Users\ordas\OneDrive\Desktop\Projekt\OverLapTest\obj\Debug\OverLapTest.csproj.AssemblyReference.cache
+C:\Users\ordas\OneDrive\Desktop\Projekt\OverLapTest\obj\Debug\OverLapTest.Form1.resources
+C:\Users\ordas\OneDrive\Desktop\Projekt\OverLapTest\obj\Debug\OverLapTest.Properties.Resources.resources
+C:\Users\ordas\OneDrive\Desktop\Projekt\OverLapTest\obj\Debug\OverLapTest.csproj.GenerateResource.cache
+C:\Users\ordas\OneDrive\Desktop\Projekt\OverLapTest\obj\Debug\OverLapTest.csproj.CoreCompileInputs.cache
+C:\Users\ordas\OneDrive\Desktop\Projekt\OverLapTest\obj\Debug\OverLapTest.exe
+C:\Users\ordas\OneDrive\Desktop\Projekt\OverLapTest\obj\Debug\OverLapTest.pdb

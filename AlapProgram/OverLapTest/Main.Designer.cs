@@ -1,0 +1,146 @@
+﻿namespace OverLapTest
+{
+    partial class Main
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+			this.components = new System.ComponentModel.Container();
+			this.Bg_Timer = new System.Windows.Forms.Timer(this.components);
+			this.Player_Left_Timer = new System.Windows.Forms.Timer(this.components);
+			this.Player_Rigth_Timer = new System.Windows.Forms.Timer(this.components);
+			this.Player_Up_Timer = new System.Windows.Forms.Timer(this.components);
+			this.Player_Down_Timer = new System.Windows.Forms.Timer(this.components);
+			this.Enemy_Move_Timer = new System.Windows.Forms.Timer(this.components);
+			this.Hit_Timer = new System.Windows.Forms.Timer(this.components);
+			this.Ammo_Move_Timer = new System.Windows.Forms.Timer(this.components);
+			this.label1 = new System.Windows.Forms.Label();
+			this.AttackSpeed = new System.Windows.Forms.Timer(this.components);
+			this.AttackSpeedAlapra = new System.Windows.Forms.Timer(this.components);
+			this.SuspendLayout();
+			// 
+			// Bg_Timer
+			// 
+			this.Bg_Timer.Enabled = true;
+			this.Bg_Timer.Interval = 16;
+			this.Bg_Timer.Tick += new System.EventHandler(this.Bg_Timer_Tick);
+			// 
+			// Player_Left_Timer
+			// 
+			this.Player_Left_Timer.Interval = 5;
+			this.Player_Left_Timer.Tick += new System.EventHandler(this.Player_Left_Timer_Tick);
+			// 
+			// Player_Rigth_Timer
+			// 
+			this.Player_Rigth_Timer.Interval = 5;
+			this.Player_Rigth_Timer.Tick += new System.EventHandler(this.Player_Rigth_Timer_Tick);
+			// 
+			// Player_Up_Timer
+			// 
+			this.Player_Up_Timer.Interval = 5;
+			this.Player_Up_Timer.Tick += new System.EventHandler(this.Player_Up_Timer_Tick);
+			// 
+			// Player_Down_Timer
+			// 
+			this.Player_Down_Timer.Interval = 5;
+			this.Player_Down_Timer.Tick += new System.EventHandler(this.Player_Down_Timer_Tick);
+			// 
+			// Enemy_Move_Timer
+			// 
+			this.Enemy_Move_Timer.Interval = 16;
+			this.Enemy_Move_Timer.Tick += new System.EventHandler(this.Enemy_Move_Timer_Tick);
+			// 
+			// Hit_Timer
+			// 
+			this.Hit_Timer.Interval = 1;
+			this.Hit_Timer.Tick += new System.EventHandler(this.Hit_Timer_Tick);
+			// 
+			// Ammo_Move_Timer
+			// 
+			this.Ammo_Move_Timer.Interval = 16;
+			this.Ammo_Move_Timer.Tick += new System.EventHandler(this.Ammo_Move_Timer_Tick);
+			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Font = new System.Drawing.Font("Nirmala UI", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.ForeColor = System.Drawing.Color.Blue;
+			this.label1.Location = new System.Drawing.Point(131, 231);
+			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(532, 106);
+			this.label1.TabIndex = 2;
+			this.label1.Text = "SpaceShooter";
+			// 
+			// AttackSpeed
+			// 
+			this.AttackSpeed.Interval = 500;
+			this.AttackSpeed.Tick += new System.EventHandler(this.AttackSpeed_Tick);
+			// 
+			// AttackSpeedAlapra
+			// 
+			this.AttackSpeedAlapra.Enabled = true;
+			this.AttackSpeedAlapra.Interval = 499;
+			this.AttackSpeedAlapra.Tick += new System.EventHandler(this.AttackSpeedAlapra_Tick);
+			// 
+			// Main
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.Black;
+			this.ClientSize = new System.Drawing.Size(779, 690);
+			this.Controls.Add(this.label1);
+			this.DoubleBuffered = true;
+			this.Margin = new System.Windows.Forms.Padding(4);
+			this.Name = "Main";
+			this.Text = "Form1";
+			this.Load += new System.EventHandler(this.Form1_Load);
+			this.Click += new System.EventHandler(this.Form1_Click);
+			this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
+			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+			this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
+			this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
+			this.ResumeLayout(false);
+			this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Timer Bg_Timer;
+        private System.Windows.Forms.Timer Player_Left_Timer;
+        private System.Windows.Forms.Timer Player_Rigth_Timer;
+        private System.Windows.Forms.Timer Player_Up_Timer;
+        private System.Windows.Forms.Timer Player_Down_Timer;
+        private System.Windows.Forms.Timer Enemy_Move_Timer;
+        private System.Windows.Forms.Timer Hit_Timer;
+        private System.Windows.Forms.Timer Ammo_Move_Timer;
+        private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Timer AttackSpeed;
+		private System.Windows.Forms.Timer AttackSpeedAlapra;
+	}
+}
+
